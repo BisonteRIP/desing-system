@@ -1,12 +1,11 @@
-import { useState } from "react";
 import "./App.css";
+import "./index.css";
+import Button from "./components/ui/button";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1 className="bg-midnight text-amber-50">Prueba</h1>
+      <Button variant="destructive">hola como estas</Button>
     </>
   );
 }

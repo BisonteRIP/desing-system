@@ -1,7 +1,58 @@
 @import "tailwindcss";
 
 @theme {
-  --color-midnight: #121063;
-  --color-tahiti: #3ab7bf;
-  --color-bermuda: #78dcca;
+  /* Colores base (del segundo archivo) */
+  --color-background: #121A1D;
+  --color-foreground: #E5E9EB;
+  --color-card: #18272C;
+  --color-card-foreground: #E5E9EB;
+  --color-popover: #172328;
+  --color-popover-foreground: #EEF0F1;
+  --color-muted: #202B30;
+  --color-muted-hover: #263338;
+  --color-muted-foreground: #9AA6AD;
+  
+  /* Colores primarios */
+  --color-primary: #376596;
+  --color-primary-hover: #234D75;
+  --color-primary-active: #113C5C;
+  --color-primary-foreground: #F8F9F9;
+  
+  /* Colores secundarios */
+  --color-secondary: #304148;
+  --color-secondary-hover: #253438;
+  --color-secondary-foreground: #DDE2EA;
+  
+  /* Colores de acento */
+  --color-accent: #32778C;
+  --color-accent-hover: #4BBDD4;
+  --color-accent-foreground: #F8F9F9;
+  
+  /* Colores de estado */
+  --color-destructive: #B12929;
+  --color-destructive-hover: #BD2121;
+  --color-destructive-foreground: #F8F8F8;
+  --color-success: #35AE47;
+  --color-success-foreground: #F8F8F8;
+  
+  /* Colores de warning (del primer archivo) */
+  --color-warning: #F8B00F;
+  --color-warning-foreground: #14A1A4;
+  
+  /* Colores de sidebar (del primer archivo) */
+  --color-sidebar-background: #172328;
+  --color-sidebar-foreground: #D0D5D8;
+  --color-sidebar-primary: #234D75;
+  --color-sidebar-primary-foreground: #F8F9F9;
+  --color-sidebar-accent: #1F2830;
+  --color-sidebar-accent-foreground: #DDE2E4;
+  --color-sidebar-border: #253035;
+  --color-sidebar-ring: #4B8187;
+  
+  /* Colores de borde/input (del primer archivo) */
+  --color-border: #2A383F;
+  --color-border-hover: #3D5058;
+  --color-input: #263338;
+  --color-input-border: #334249;
+  --color-ring: #4B8187;
 }
