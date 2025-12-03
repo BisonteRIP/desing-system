@@ -6,6 +6,9 @@ function App() {
   return (
     <>
       <Button variant="destructive">hola como estas</Button>
+      <Button variant="">hola como estas</Button>
+      <Button variant="outline">hola como estas</Button>
+      <Button variant="ghost">hola como estas</Button>
     </>
   );
 }
