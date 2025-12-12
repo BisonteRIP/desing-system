@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @theme {
   /* Colores base (del segundo archivo) */
   --color-background: #121A1D;

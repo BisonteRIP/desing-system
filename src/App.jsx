@@ -2,6 +2,7 @@ import "./App.css";
 import "./index.css";
 import Button from "./components/ui/button";
 import Badges from "./components/ui/badges";
+import Input from "./components/ui/input";
 import {
   ComponentExample,
   ComponentSection,
@@ -17,12 +18,13 @@ function App() {
           title="Diferentes Botones"
           description="Algunos Botones">
           <Button variant="destructive">hola como estas</Button>
-          <Button variant="">hola como estas</Button>
+          <Button>hola como estas</Button>
           <Button variant="outline">hola como estas</Button>
           <Button variant="ghost">hola como estas</Button>
           <Badges variant="outline">
             <p>99+</p>
           </Badges>
+          <Input type="text" placeholder="Escribe aqui..."></Input>
         </ComponentExample>
       </ComponentSection>
     </>
