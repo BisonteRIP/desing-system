@@ -24,7 +24,12 @@ function App() {
           <Badges variant="outline">
             <p>99+</p>
           </Badges>
-          <Input type="text" placeholder="Escribe aqui..."></Input>
+          <Input
+            showIcon={false}
+            icon="lock"
+            type="text"
+            placeholder="Escribe aqui..."
+            style="success"></Input>
         </ComponentExample>
       </ComponentSection>
     </>
